@@ -4,12 +4,12 @@ Dashboard for generating an API Service via a Config File
 
 ## Todo 
 
--[ ] Dashboard
+-[] Dashboard
 
-    -[ ] Input Config File
-    -[ ] Validate Config File
-    -[ ] Determine Start Date for API
-    -[ ] Live Test Various URLs of API
+    -[] Input Config File
+    -[] Validate Config File
+    -[] Determine Start Date for API
+    -[] Live Test Various URLs of API
 -[ ] API SDK Generator
     -[ ] Parse Config 
     -[ ] Java byte... thing for code generation
