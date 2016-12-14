@@ -1,0 +1,32 @@
+<health-check-url> ::= "http://www.qualtrics.com/api/v0" <custom-path>
+
+<custom-path> ::= "/health-check" | "/health-check/"
+
+<return-value> ::= <success> | <fail>
+
+<success> ::= "{ "status" : "ok" }"
+
+<fail> ::= ""
+
+
+How do you handle status codes, headers, GET/PUT, actual function of request?
+
+DELETE HOST/api/v0/user/:id -> deletes a user -> return success error code
+
+BNF can handle DELETE
+BNF can handle return code
+BNF can handle
+
+You must force BNF writer to specify URL, METHOD, RETURN INFO terminals.
+
+
+Terminals for FUNCTION to call to delete a user with INPUT values to function as defined by BNF TERMINALS
+
+
+Required Terminals
+    * URL
+    * METHOD
+    * HEADERS
+    * FUNCTION TO CALL
+    * FUNCTION PARAMS
+    * RETURN VALUES (based on what FUNCTION can return)
