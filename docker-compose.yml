@@ -1,0 +1,11 @@
+version: '2'
+services:
+  web:
+    build:
+      context: .
+    ports:
+     - "8080:8080"
+    volumes:
+     - .:/src
+  redis:
+    image: redis
